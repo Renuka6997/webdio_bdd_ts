@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonJs",
+    "esModuleInterop": true,
+    "types": ["node", "webdriverio/sync", "@wdio/cucumber-framework", "@wdio/selenium-standalone-service"]
+    },
+    "include": ["features/**/*.ts", "features/*.feature"]
+}
+
+// {
+//     "compilerOptions": {
+//       "types": ["node", "webdriverio/sync", "@wdio/cucumber-framework", "@wdio/selenium-standalone-service"]
+//     }
+//   }
